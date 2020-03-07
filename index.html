@@ -11,27 +11,27 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body style="scroll-behavior: smooth;">
 <div id="content-wrapper">
   <header class="header header--bg">
     <div class="container-fluid" style="padding: 0px">
-            <nav class="navbar" id="navbar" style="background-color: #222;padding: 10px;border-radius: 0px;">
-        <div class="navbar-header">
+            <nav class="sticky navbar" id="navbar" style="background-color: #222;padding: 10px;border-radius: 0px;">
+        <div class="navbar-header ">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
           </button>
-          <a style="background-color: transparent;color: #fff;font-size: 19px" class="" href="">PrathameshD</a>
+          <a style="background-color: transparent;color: #fff;font-size: 19px" class="" href="">Prathamesh</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#">HOME</a></li>
+            <li><a href="">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
                         <li><a href="#experience">EXPERIENCE</a></li> 
+                                    <li><a href="#portfolio">PROJECTS</a></li> 
             <li><a href="#skills">SKILLS</a></li> 
-            <!--<li><a href="#">PROJECTS</a></li> 
-            <li><a href="#">CONTACT</a></li>--> 
+            <!--<li><a href="#">CONTACT</a></li>--> 
           </ul>
         </div>
       </nav>
@@ -173,6 +173,66 @@
     </div>
   </section>
 
+  <section id="portfolio" class="portfolio" style="">
+    <div class="container skill__container--narrow">
+      <div class="page-section">
+        <h2 class="page-section__title">Projects</h2><br>
+        <!--<p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>-->
+        <!--
+        <div class="portfolio__button-group">
+          <a class="button button--default" data-filter="all" href="#">ALL</a>
+          <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
+          <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
+          <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
+          <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
+        </div>-->
+        <div class="row gutters-70">
+          <div class="col-md-4">
+            <div class="thumbnail text-left hovereffect" style="border: 1px solid white;background-color: #ffffff;padding: 0px">
+
+                    <img src="assets/images/utopia.jpg" width="309" height="200">
+                    <div style="padding: 10px">
+      <h4 class="project-name"><span style="color:black"><b>Utopia</b></span></h4> 
+      <p>A music streaming web application based on Spotify's API</p>
+      <p>Technologies Used: ReactJS, Go, Flask, NodeJS</p>
+   <!--           <h4 class="service__single-section__title" style="color: white">BLOOM INSURANCE AGENCY</h4>
+              <h6 class="service__single-section__title" style="color: white">Software Developer Intern</h6>
+              <p class="service__single-section__paragraph">• Developed Windows application for Ascend Technology platform using C#, .Net, MVVM.</p>
+                            <p class="service__single-section__paragraph">• Improved code maintainability by migrating existing architecture of website from ASP web-forms to .Net MVC.</p>
+              <p class="service__single-section__paragraph">• Redesigned the User Interface of Ascend website with CSS/JavaScript to enhance user experience. </p>
+-->
+</div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-left hovereffect" style="border: 1px solid white;background-color: #ffffff;padding: 0px">
+              
+      <img src="assets/images/cityscanner.jpg" width="309" height="200">
+                    <div style="padding: 10px">
+      <h4 class="project-name"><span style="color:black"><b>City Scanner</b></span></h4> 
+      <p>A web application built alongside Google API's to explore cities</p>
+      <p>Technologies Used: ReactJS, Spring Boot, MySQL</p>
+    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-left hovereffect" style="border: 1px solid white;background-color: #ffffff;padding: 0px">
+             
+          <img src="assets/images/events.jpg" width="309" height="200">   
+                    <div style="padding: 10px">
+      <h4 class="project-name"><span style="color:black"><b>Hoosier Events</b></span></h4> 
+      <p>An event hosting website for users in and around Indiana University.</p>
+      <p>Technologies Used: JavaScript, HTML,  Spring Boot, MySQL</p>
+      </div>
+            </div>
+          </div>
+        </div>
+  
+    </div>
+  </div>
+  </section>
+
+
     <section id="skills" class="skill skill--bg" style="background-color: #f2f3f5">
     <div class="container skill__container--narrow">
       <div class="page-section">
@@ -188,7 +248,7 @@
                 </div>
               </div>-->
               <ul class="service__single-section__paragraph" style="color: black">
-                <li>Java</li><li> Python</li><li> C</li><li> JavaScript</li><li> HTML</li><li> CSS</li><li> Bootstrap</li><li> C#</li>
+                <li>Java</li><li> Python</li><li> C</li><li> JavaScript</li><li> HTML</li><li> CSS</li><li> C#</li>
                 
               </ul>
             </div>
@@ -210,6 +270,7 @@
 <li>React.js</li><li>Node.js</li>
                 <li>MVC
                 </li>
+                <li> Bootstrap</li>
                 <li>Spring Boot</li><li>Agile</li><li>MySQL</li><li>PostgreSQL</li>
               </ul>
             </div>
@@ -249,113 +310,9 @@
     </div>
   </section>-->
 
-<!--
-  <section class="portfolio">
-    <div class="container">
-      <div class="page-section">
-        <h2 class="page-section__title">MY PORTFOLIO</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div class="portfolio__button-group">
-          <a class="button button--default" data-filter="all" href="#">ALL</a>
-          <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
-          <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
-          <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
-          <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
-        </div>
-        <div class="row gutters-40">
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-1.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>LOGO DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-a category-c" data-order="2">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-2.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>WEBSITE DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-c" data-order="3">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-3.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>LOGO DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row gutters-40">
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-b category-d" data-order="4">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-4.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>PHOTOGRAPHY</h4>
-                  <p>photographer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-b category-d" data-order="5">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-5.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>WEBSITE DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-d" data-order="6">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-6.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>LOGO DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
--->  
+  
+
 <!--
   <section class="slider slider--bg">
     <div id="myCarousel" class="carousel container slide" data-ride="carousel">

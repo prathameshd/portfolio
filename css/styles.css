@@ -210,7 +210,7 @@ html,body {
   font-size: 35px;
   /*color: #273f59;*/
   color: black;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
 }
 
@@ -355,7 +355,7 @@ html,body {
 
 .skill .thumbnail{
   text-align: left;
-  padding: 10px 40px;
+  padding: 10px 15px;
   border-radius: 5px;
   /*-webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);*/
@@ -403,7 +403,7 @@ html,body {
 }
 
 .service__single-section__title{
-  font-size: 20px;
+  font-size: 17px;
   color: #273f59;
   font-weight: bold;
   margin-top: 15px;
@@ -979,11 +979,11 @@ body{
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-/*
-.thumbnail:hover{
+
+.hovereffect:hover{
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 transition: 0.8s;
-}*/
+}
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
@@ -995,4 +995,25 @@ transition: 0.8s;
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+.project-card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 30%;
+height: 55%;
+margin-top: 25px;
+float: left;
+margin-right: 25px;
+}
+
+.project-cards-div{
+width: 70%;
+left: 15%;
+position: relative; 
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
