@@ -412,7 +412,8 @@ html,body {
 
 .service__single-section__paragraph{
   font-size: 15px;
-  color: #7b7b7b;
+ /* color: #7b7b7b;*/
+ color: black;
   line-height: 1.8;
 }
 
@@ -1016,4 +1017,13 @@ position: relative;
 
 html {
   scroll-behavior: smooth;
+}
+
+.project-name{
+  text-decoration: underline blink #005f8f;
+}
+
+.dummy{
+  box-shadow: 0 7px 14px 0 rgba(0,0,0,0.1);
+transition: 0.8s;
 }
