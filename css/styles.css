@@ -1128,3 +1128,8 @@ transition: 0.5s;
     background-position: 0% 50%;
   }
 }
+
+
+.header-text{
+  font-family: "Montserrat", sans-serif !important;
+  }
