@@ -273,7 +273,7 @@ html,body {
 }
 
 .about__bio strong{
-  font-size: 15px;
+  font-size: 17px;
   color: #2c4055;
   font-family: Roboto-Light;
 }
@@ -1081,16 +1081,16 @@ transition: 0.5s;
 }
 
 .resume-btn{
-  border: 1px solid green;
+  border: 1px solid lightcoral;
   background-color: white;
-  color: green;
-  width: 300px;
+  color: lightcoral;
+  width: 200px;
   transition: 0.7s;
   border-radius: 5px;
 }
 
 .resume-btn:hover{
-  background-color: green;
+  background-color: lightcoral;
   color: white;
 }
 
