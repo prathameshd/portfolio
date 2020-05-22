@@ -1029,6 +1029,7 @@ html {
 
 .project-name{
   font-size: 23px !important;
+  padding-left: 14px;
 }
 
 .dummy{
@@ -1045,6 +1046,7 @@ background-color: #dee4e7;
 /*  color:#005f8f;
 */  color: #003550;
   font-size: medium;
+  padding-left: 14px;
 }
 
 .glyphicon{
@@ -1059,6 +1061,7 @@ transition: 0.5s;
 .project-details{
   font-size: 17px;
   color: #37474e;
+  padding: 15px;
 }
 
 
@@ -1134,3 +1137,25 @@ transition: 0.5s;
 .header-text{
   font-family: "Montserrat", sans-serif !important;
   }
+
+
+  #ggwp{
+  background: : linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: change 10s ease infinite;
+
+    background-size: 100%;
+    width: 100%;
+
+}
+
+
+@keyframes change {
+  0% { color: #ee7752; }
+  15% { color: #e73c7e; }
+  30% { color: #23a6d5; }
+  45%{color:#23d5ab;}
+   60% { color: #ee7752; }
+  75% { color: #e73c7e; }
+  90% { color: #23a6d5; }
+  100%{color:#23d5ab;}
+}
