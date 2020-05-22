@@ -93,7 +93,8 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  /*background: -webkit-linear-gradient( 90deg, rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);*/
+/*background:  -webkit-linear-gradient( 90deg, rgba(72,76,75, .9) 0%, rgba(27,77,190, .9) 100%);
+*/  /*background: -webkit-linear-gradient( 90deg, rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);*/
   z-index: -1;
 }
 
@@ -140,7 +141,8 @@ html,body {
 
 .navbar .navbar-nav > li > a, .navbar .navbar-brand, .navbar .navbar-nav > li > a:focus{
   background-color: transparent;
-  color: #fff;
+  /*color: #fff;*/
+  color: #26262;
 }
 
 .nav li a{
@@ -211,8 +213,8 @@ html,body {
   /*color: #273f59;*/
   color: black;
   text-align: left;
-  font-weight: bold;
-}
+/*  font-weight: bold;
+*/}
 
 .page-section__title--white{
   color: #fff;
@@ -332,7 +334,7 @@ html,body {
 .skill--bg{
   /*background: url("../assets/images/skill-background.png") no-repeat;*/
   background-size: cover;
-  position: relative;
+ /* position: relative;*/
   z-index: 1;
 }
 
@@ -356,7 +358,8 @@ html,body {
 .skill .thumbnail{
   text-align: left;
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: 0px solid black;
   /*-webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);*/
 }
@@ -403,23 +406,24 @@ html,body {
 }
 
 .service__single-section__title{
-  font-size: 17px;
+  font-size: 18px;
   color: #273f59;
-  font-weight: bold;
-  margin-top: 15px;
+/*  font-weight: bold;
+*/  margin-top: 15px;
   margin-bottom: 20px;
 }
 
 .service__single-section__paragraph{
-  font-size: 15px;
+  font-size: 17px;
+  color: white;
  /* color: #7b7b7b;*/
- color: black;
-  line-height: 1.8;
+ 
+  line-height: 1.3;
 }
 
 .gutters-70.row{
   margin-right: -35px;
-  margin-left: -35px;
+  margin-left: -47px;
 }
 
 .gutters-70 > [class^="col-"], .gutters-70 > [class^="col-"]{
@@ -931,7 +935,7 @@ html,body {
 }
 
 .footer--bg{
-  background-color: #27353B;
+  background-color: #003550;
 }
 
 .footer__title{
@@ -977,7 +981,9 @@ html,body {
 }
 
 body{
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+/*  font-family: "Trebuchet MS", Helvetica, sans-serif;
+*/
+font-family: "Roboto", helvetica, arial, sans-serif !important;
 }
 
 
@@ -991,6 +997,8 @@ transition: 0.8s;
   position: fixed;
   top: 0;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -1020,10 +1028,103 @@ html {
 }
 
 .project-name{
-  text-decoration: underline blink #005f8f;
+  font-size: 23px !important;
 }
 
 .dummy{
-  box-shadow: 0 7px 14px 0 rgba(0,0,0,0.1);
-transition: 0.8s;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1);
+transition: 1.5s;
+border-radius: 10px !important;
+background-color: #dee4e7;
+
+}
+
+.dummy:hover{
+}
+.tech-desc{
+  color:#005f8f;
+  font-size: medium;
+}
+
+.glyphicon{
+  top:4px !important;
+}
+
+.exp-hover:hover{
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1);
+transition: 0.5s;
+}
+
+.project-details{
+  font-size: 17px;
+  color: #37474e;
+}
+
+
+.element {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1);
+  }
+  100% {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  }
+}
+
+.skills-details{
+  font-size: 17px;
+  color:#37474e !important;
+}
+
+.resume-btn{
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+  width: 300px;
+  transition: 0.7s;
+  border-radius: 5px;
+}
+
+.resume-btn:hover{
+  background-color: green;
+  color: white;
+}
+
+.skills-div{
+      border-bottom: 1px solid #efefef;
+      transition: 0.5s;
+      margin-top: 3px;
+}
+
+.skills-div:hover{
+      box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+
+}
+
+.skills-data{
+  padding-top: 10px;
+}
+
+
+#test-div{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  width:100%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

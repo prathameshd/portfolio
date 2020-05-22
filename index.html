@@ -10,19 +10,21 @@
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 </head>
 <body style="scroll-behavior: smooth;">
 <div id="content-wrapper">
-  <header class="header header--bg">
+  <header class="header header--bg" id="test-div">
     <div class="container-fluid" style="padding: 0px">
-            <nav class="sticky navbar" id="navbar" style="background-color: #222;padding: 10px;border-radius: 0px;">
+            <nav class="sticky navbar" id="navbar" style="background-color: white;padding: 10px;border-radius: 0px;">
         <div class="navbar-header " style="margin-top: 8px;margin-left: 10px">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
           </button>
-          <a style="background-color: transparent;color:white ;font-size: 19px;margin-top: 10px;" class="" href="">Prathamesh Deshpande</a>
+          <a style="background-color: transparent;color:lightcoral ;font-size: 23px;margin-top: 10px;margin-left: 21px;" class="" href="">prathameshDeshpande</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -31,6 +33,8 @@
                         <li><a href="#experience" class="active">EXPERIENCE</a></li> 
                                     <li><a href="#portfolio">PROJECTS</a></li> 
             <li><a href="#skills">SKILLS</a></li> 
+            <li><a href="#contact">CONTACT</a></li> 
+
             <!--<li><a href="#">CONTACT</a></li>--> 
           </ul>
         </div>
@@ -79,18 +83,21 @@
     </div>
   </header>
 
-  <section id="about" class="section" style="background-color: white">
+
+
+  <section id="about" class="section" style="background-color: #dee4e7ad">
     <div class="container about__container--narrow">
       <div class="page-section">
         <h2 class="page-section__title">About Me</h2>
           <div class="row gutters-80">
-            <div class="col-md-4">
-              <div class="about__image">
-                <img src="assets/images/profile.jpg" alt="" height="380px" width="290px">
-              </div>
-            </div>
+
             <div class="col-md-8 ">
-              <p class="service__single-section__paragraph">Graduate student pursuing Master's in Computer Science at Indiana University, Bloomington. Aspiring Software Developer with experience in developing windows and web applications and technical proficiency in various technologies like micro-services, design patterns, algorithms and database design. Experience in developing full stack web applications with SDLC approach. Well versed with development methodology like Agile. Ability to communicate effectively and excellent problem solving skills. </p>
+              <p class="service__single-section__paragraph" style="color: #262626 !important;">
+
+I have a Master's Degree in Computer Science from Indiana University, Bloomington. I am an avid Programmer and a Quick Learner with over 6 months of  experience as a Software Engineer. My proficiency lies in Java, Javascript, Python, C# .NET, SQL with advanced knowledge of developer applications, tools, methodologies, and best practices. I am a team player with strong analytical and problem-solving skills. I have an immense interest in developing full-stack web applications and I am eager to explore new technologies. 
+ </p>
+              <button type="button" class="resume-btn">DOWNLOAD RESUME</button>
+
               <!--<div class="row row--margin-top">
                 <div class="col-md-4">
                   <p class="about__bio"><strong>NAME :</strong> Jonny D. Dorsch</p>
@@ -125,6 +132,12 @@
           </div>-->
 
             </div>
+
+			<div class="col-md-4">
+			<div class="about__image">
+			<img src="assets/images/profile.jpg" alt="" height="380px" width="290px">
+			</div>
+			</div>
           </div>
 		</div>
     </div>
@@ -132,248 +145,264 @@
 
 
 
-  <section id="experience" class="service" style="background-color: #005f8f;">
+  <section id="experience" class="service" style="background-color: #003550;">
     <div class="container skill__container--narrow">
       <div class="page-section">
-        <h2 class="page-section__title" style="color: white">Work Experience</h2><br>
+        <h2 class="page-section__title" style="color: white">Work Experience</h2>
         <!--<p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>-->
         <div class="row gutters-70">
-          <div class="col-sm-3">
-                                   <div class="thumbnail text-left" style="background-color: #005f8f">
-              <h4 class="service__single-section__title" style="color: white">June 2019-Dec 2019</h4>
+<!--           <div class="col-sm-4">
+                                   <div class="thumbnail text-left" style="background-color: brown">
+              <h4 class="service__single-section__title" style="color: white;font-size: 20px">June 2019-Dec 2019</h4>
 
             </div>
-          </div>
-          <div class="col-sm-8">
-                       <div class="thumbnail text-left" style="background-color: #005f8f">
-              <h4 class="service__single-section__title" style="color: black">BLOOM INSURANCE AGENCY</h4>
-              <h6 class="service__single-section__title" style="color: black">Software Developer Intern</h6>
-              <p class="service__single-section__paragraph">• Migrated architecture of website from ASP web-forms to .Net MVC for better code maintainability and design.
-• Redesigned the User Interface of Ascend website with CSS/JavaScript to enhance user experience.
-• Extensively tested, developed and improved features for Ascend’s Windows application using C#, .Net, MVVM.
-• Improved website performance by optimizing code for efficient memory usage and reduced call depth.</p>
+          </div> -->
+          <div class="col-sm-8 exp-hover">
+          	<a href="#experience">
+                       <div class="thumbnail text-left" style="background-color: #003550">
+              <h6 class="service__single-section__title" style="color: white;font-size: 23px">Software Developer Intern</h6>
+              <h4 class="service__single-section__title" style="color: grey">Bloom Insurance Agency | Jun 2019-Dec 2019</h4>
+              <p class="service__single-section__paragraph">Migrated architecture of website from ASP web-forms to .Net MVC for better code maintainability and design. Redesigned the User Interface of Ascend website with CSS/JavaScript to enhance user experience. Extensively tested, developed and improved features for Ascend’s Windows application using C#, .Net, MVVM. Improved website performance by optimizing code for efficient memory usage and reduced call depth.</p>
 
             </div>
+        </a>
           </div>
         </div>
 
-
+<br>
         <div class="row gutters-70">
-          <div class="col-sm-3">
-                                   <div class="thumbnail text-left" style="background-color: #005f8f">
-              <h4 class="service__single-section__title" style="color: white">Feb 2018-Apr 2018</h4>
+<!--           <div class="col-sm-4">
+                                   <div class="thumbnail text-left" style="background-color: brown">
+              <h4 class="service__single-section__title" style="color: white;font-size: 20px">Feb 2018-Apr 2018</h4>
 
             </div>
-          </div>
-          <div class="col-sm-8">
-                       <div class="thumbnail text-left" style="background-color: #005f8f">
-          <h4 class="service__single-section__title" style="color: black">AXIS BANK </h4>
-              <h6 class="service__single-section__title" style="color: black">Web Developer Intern</h6>
-              <p class="service__single-section__paragraph">• Developed an offline payment system based on Axis e-pay portal using PHP and CSS.
-• Collaborated with Payment Team to understand and assist with client on-boarding process.</p>
+          </div> -->
+          <div class="col-sm-8 exp-hover">
+          	<a href="#experience">
+                       <div class="thumbnail text-left" style="background-color: #003550">
+              <h6 class="service__single-section__title" style="color: white;font-size: 23px">Web Developer Intern</h6>
+          <h4 class="service__single-section__title" style="color: grey">Axis Bank | Feb 2018-Apr 2018 </h4>
+              <p class="service__single-section__paragraph">Developed an offline payment system based on Axis e-pay portal using PHP and CSS. Collaborated with Payment Team to understand and assist with client on-boarding process.</p>
             </div>
+        </a>
           </div>
         </div>
 
-
-
-
-
-        <!--<div class="row gutters-70">
-          <div class="col-md-4">
-            <div class="thumbnail text-left" style="border: 1px solid #292929;background-color: #292929">
-              <img src="" alt="">
-              <h4 class="service__single-section__title" style="color: white">BLOOM INSURANCE AGENCY</h4>
-              <h6 class="service__single-section__title" style="color: white">Software Developer Intern</h6>
-              <p class="service__single-section__paragraph">• Developed Windows application for Ascend Technology platform using C#, .Net, MVVM.</p>
-                            <p class="service__single-section__paragraph">• Improved code maintainability by migrating existing architecture of website from ASP web-forms to .Net MVC.</p>
-              <p class="service__single-section__paragraph">• Redesigned the User Interface of Ascend website with CSS/JavaScript to enhance user experience. </p>
+        <br>
+        <div class="row gutters-70">
+<!--           <div class="col-sm-4">
+                                   <div class="thumbnail text-left" style="background-color: brown">
+              <h4 class="service__single-section__title" style="color: white;font-size: 20px">Feb 2018-Apr 2018</h4>
 
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-left" style="border: 1px solid #292929;background-color: #292929">
-                   <img src="" alt="">
-              <h4 class="service__single-section__title" style="color: white">INDIANA UNIVERSITY</h4>
-              <h6 class="service__single-section__title" style="color: white">Logistics Intern</h6>
-              <p class="service__single-section__paragraph">• Managing logs and inventory at IU Dining using FSS software.</p>
-                            <p class="service__single-section__paragraph">• Forecasting inventory requirements based on previous statistics to improve future purchasing.
-</p>
+          </div> -->
+          <div class="col-sm-8 exp-hover">
+          	<a href="#experience">
+                       <div class="thumbnail text-left" style="background-color: #003550">
+              <h6 class="service__single-section__title" style="color: white;font-size: 23px">Logistics Intern</h6>
+          <h4 class="service__single-section__title" style="color: grey">Indiana University | Feb 2019-May 2019</h4>
+              <p class="service__single-section__paragraph">Managing logs and inventory at IU Dining using FSS software. Forecasting inventory requirements based on previous statistics to improve future purchasing..</p>
             </div>
+        </a>
           </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-left" style="border: 1px solid #292929;background-color: #292929">
-                   <img src="" alt="">
-              <h4 class="service__single-section__title" style="color: white">AXIS BANK </h4>
-              <h6 class="service__single-section__title" style="color: white">Web Developer Intern</h6>
-              <p class="service__single-section__paragraph">• Developed an offline payment system based on Axis e-pay portal using PHP and CSS.</p>
-                            <p class="service__single-section__paragraph">• Collaborated with Payment Team to understand and assist with client on-boarding process.</p>
-            </div>
-          </div>
-        </div>-->
+        </div>
+
       </div>
     </div>
   </section>
 
-  <section id="portfolio" class="portfolio" style="background-color: ">
+<section id="portfolio" class="portfolio" style="background-color: #dee4e7ad">
+<div class="container skill__container--narrow">
+<div class="page-section">
+<h2 class="page-section__title" style="color:#005f8f">Featured Projects</h2><br>
+
+<div class="row gutters-70">
+<div class="col-md-4">
+<div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
+
+<!--<img src="assets/images/utopia.jpg" width="309" height="200">-->
+<div style="padding: 10px">
+<a href="#portfolio">
+<h3 class="project-name"><span style="color:#262626;"><b>Utopia</b></span></h3> 
+<p class="project-details">Built a music recommendation web app on top of Spotify’s API with microservice architecture. Used Jenkins for CI/CD and achieved fault tolerant architecture (10000 concurrent requests) with Kubernetes</p> 
+<p class="tech-desc" ><span class="glyphicon glyphicon-tasks"></span>  ReactJS, Go, Flask, NodeJS</p>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
+
+<!--<img src="assets/images/cityscanner.jpg" width="309" height="200">-->
+<div style="padding: 10px">
+	<a href="#portfolio">
+<h3 class="project-name"><span style="color:#262626;"><b>City Scanner</b></span></h3> 
+ <p class="project-details">Built a review website for users to explore and rate attractions in a city using Google APIs to fetch data. Practiced test-driven development to achieve 45% code coverage and reduced code bugs with SonarQube</p> 
+<p class="tech-desc" ><span class="glyphicon glyphicon-tasks"></span>  ReactJS, Spring Boot, MySQL</p>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
+
+<!-- <img src="assets/images/events.jpg" width="309" height="200">-->   
+<div style="padding: 10px">
+	<a href="#portfolio">
+<h3 class="project-name"><span style="color:#262626;"><b>Hoosier Events</b></span></h3> 
+ <p class="project-details">Developed an event hosting and ticketing website for events around IU and deployed it on AWS. Collaborated with a team of 4 members and practiced Agile Methodology for development</p> 
+<p class="tech-desc" ><span class="glyphicon glyphicon-tasks"></span>  JavaScript, HTML,  Spring Boot, MySQL</p>
+</a>
+</div>
+</div>
+</div>
+
+<!-- <div class="col-md-4">
+<div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
+
+<div style="padding: 10px">
+	<a href="#portfolio">
+<h3 class="project-name"><span style="color:#262626;"><b>Healthy Orange County</b></span></h3> 
+<p class="project-details">Redesigned a website for Orange County Wellness Centre for better accessibility of healthcare services.Built additional features for user and event management.</p> 
+<p class="tech-desc" ><span class="glyphicon glyphicon-tasks"></span>  HTML,Bootstap, PHP, MySQL</p>
+</a>
+</div>
+</div>
+</div> -->
+
+
+
+</div>
+
+
+<!-- <div class="row gutters-70">
+<div class="col-md-4">
+<div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
+
+<div style="padding: 10px">
+	<a href="#portfolio">
+<h3 class="project-name"><span style="color:#262626;"><b>Healthy Orange County</b></span></h3> 
+<p class="project-details">Redesigned a website for Orange County Wellness Centre for better accessibility of healthcare services.Built additional features for user and event management.</p> 
+<p class="tech-desc" ><span class="glyphicon glyphicon-tasks"></span>  HTML,Bootstap, PHP, MySQL</p>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
+
+<div style="padding: 10px">
+	<a href="#portfolio">
+<h3 class="project-name"><span style="color:#262626;"><b>Analytics in Academics</b></span></h3> 
+<div class="spinner-grow text-light"></div>
+<p class="project-details">Developed a web application for college department to analyse grades for tracking student performance.Visualized the statistics of 200 students using R and predicted grades with 90% accuracy using Neural Net.</p> 
+<p class="tech-desc" ><span class="glyphicon glyphicon-tasks"></span>  HTML, R, MySQL</p>
+</a>
+</div>
+</div>
+</div>
+
+</div> -->
+
+</div>
+</div>
+</section>
+
+
+    <section id="skills" class="skill skill--bg" style="background-color: white">
     <div class="container skill__container--narrow">
       <div class="page-section">
-        <h2 class="page-section__title" style="color:#005f8f">Projects</h2><br>
-        <!--<p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>-->
-        <!--
-        <div class="portfolio__button-group">
-          <a class="button button--default" data-filter="all" href="#">ALL</a>
-          <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
-          <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
-          <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
-          <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
-        </div>-->
-        <div class="row gutters-70">
-          <div class="col-md-4">
-            <div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
+        <h2 class="page-section__title " style="color: #005f8f">Technical Skills</h2>
 
-                    <!--<img src="assets/images/utopia.jpg" width="309" height="200">-->
-                    <div style="padding: 10px">
-      <h3 class="project-name"><span style="color:black;"><b>Utopia</b></span></h3> 
-      <p>Built a music recommendation web app on top of Spotify’s API with microservice architecture. Used Jenkins for CI/CD and achieved fault tolerant architecture (10000 concurrent requests) with Kubernetes</p>
-      <p style="color: #005f8f">Technologies Used: ReactJS, Go, Flask, NodeJS</p>
-</div>
+
+                <div class="row gutters-70 skills-div">
+          <div class="col-sm-4">
+                                   <div class="thumbnail text-left" >
+              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;">Programming Languages</h4>
+
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
-              
-      <!--<img src="assets/images/cityscanner.jpg" width="309" height="200">-->
-                    <div style="padding: 10px">
-      <h3 class="project-name"><span style="color:black;"><b>City Scanner</b></span></h3> 
-      <p>Built a review website for users to explore and rate attractions in a city using Google APIs to fetch data. Practiced test-driven development to achieve 45% code coverage and reduced code bugs with SonarQube</p>
-      <p style="color: #005f8f">Technologies Used: ReactJS, Spring Boot, MySQL</p>
-    </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
-             
-         <!-- <img src="assets/images/events.jpg" width="309" height="200">-->   
-                    <div style="padding: 10px">
-      <h3 class="project-name"><span style="color:black;"><b>Hoosier Events</b></span></h3> 
-      <p>Developed an event hosting and ticketing website for events around IU and deployed it on AWS. Collaborated with a team of 4 members and practiced Agile Methodology for development</p>
-      <p style="color: #005f8f">Technologies Used: JavaScript, HTML,  Spring Boot, MySQL</p>
-      </div>
+          <div class="col-sm-4 skills-data">
+                       <div class="thumbnail text-left" >
+             <!-- <p class="service__single-section__paragraph">Java Python C# Javascript C </p>-->
+<p class="skills-details" style="color: black">•Java •Python •C# •Javascript •C •HTML</h5>
             </div>
           </div>
         </div>
 
 
-          <div class="row gutters-70">
-          <div class="col-md-4">
-            <div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
+                <div class="row gutters-70 skills-div">
+          <div class="col-sm-4">
+                                   <div class="thumbnail text-left">
+              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;">Tools</h4>
 
-                    <!--<img src="assets/images/utopia.jpg" width="309" height="200">-->
-                    <div style="padding: 10px">
-      <h3 class="project-name"><span style="color:black;"><b>Healthy Orange County</b></span></h3> 
-      <p>Redesigned a website for Orange County Wellness Centre for better accessibility of healthcare services.Built additional features for user and event management.<p>
-      <p style="color: #005f8f">Technologies Used: HTML,Bootstap, PHP, MySQL</p>
-</div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
-              
-      <!--<img src="assets/images/cityscanner.jpg" width="309" height="200">-->
-                    <div style="padding: 10px">
-      <h3 class="project-name"><span style="color:black;"><b>Analytics in Academics</b></span></h3> 
-      <p>Developed a web application for college department to analyse grades for tracking student performance.Visualized the statistics of 200 students using R and predicted grades with 90% accuracy using Neural Net.</p>
-      <p style="color: #005f8f">Technologies Used: HTML, R, MySQL</p>
-    </div>
+          <div class="col-sm-4 skills-data">
+                       <div class="thumbnail text-left">
+             <!-- <p class="service__single-section__paragraph">Java Python C# Javascript C </p>-->
+<p class="skills-details" style="color: black">•JIRA •Tableau •Git •Jenkins •SonarQube •Bamboo •Confluence •Eclipse
+</h5>
             </div>
           </div>
-
         </div>
+
+
+
+                <div class="row gutters-70 skills-div">
+          <div class="col-sm-4">
+                                   <div class="thumbnail text-left" >
+              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;">Frameworks</h4>
+
+            </div>
+          </div>
+          <div class="col-sm-4 skills-data">
+                       <div class="thumbnail text-left" >
+             <!-- <p class="service__single-section__paragraph">Java Python C# Javascript C </p>-->
+<p class="skills-details" style="color: black"> •React.js •Node.js •MVC •Bootstrap •Spring Boot •Agile •MySQL •PostgreSQL</h5>
+            </div>
+          </div>
+        </div>
+
+
+
+
   
-    </div>
-  </div>
-  </section>
-
-
-    <section id="skills" class="skill skill--bg" style="background-color: #005f8f">
-    <div class="container skill__container--narrow">
-      <div class="page-section">
-        <h2 class="page-section__title " style="color: white">Technical Skills</h2><br>
-        <!--<p class="page-section__paragraph ">I have experience with various programming languages and frameworks. These include: </p>-->
-        <div class="row gutters-60">
-          <div class="col-md-4">
-            <div class="thumbnail text-center" style="border: 0px solid #292929;background-color: #005f8f">
-              <img src="" alt="">
-              <h4 class="service__single-section__title" style="color: white">PROGRAMMING LANGUAGES</h4>
-              <!--<div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
-                </div>
-              </div>-->
-              <ul class="service__single-section__paragraph" style="">
-                <li>Java</li><li> Python</li><li> C</li><li> JavaScript</li><li> HTML</li><li> CSS</li><li> C#</li>
-                
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center" style="border: 0px solid #292929;background-color: #005f8f">
-              <img src="" alt="">
-            <h4 class="service__single-section__title" style="color: white">TOOLS</h4>
-              <ul class="service__single-section__paragraph" style="">
-                <li>JIRA</li><li> Tableau</li><li> Git</li><li> Jenkins</li><li> SonarQube</li><li> Bamboo</li><li> Confluence</li><li> Eclipse</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center" style="border: 0px solid #292929;background-color: #005f8f">
-              <img src="" alt="">
-             <h4 class="service__single-section__title" style="color: white">FRAMEWORKS/DATABASES</h4>
-              <ul class="service__single-section__paragraph" style="">
-<li>React.js</li><li>Node.js</li>
-                <li>MVC
-                </li>
-                <li> Bootstrap</li>
-                <li>Spring Boot</li><li>Agile</li><li>MySQL</li><li>PostgreSQL</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
-<!--
-  <section class="overview overview--bg">
-    <div class="container">
-      <div class="page-section">
-        <div class="row gutters-140">
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">headset_mic</i>
-          <h2 class="overview__single-section__number">220</h2>
-          <p class="overview__single-section__title">Hand to Work</p>
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">mood</i>
-          <h2 class="overview__single-section__number">530</h2>
-          <p class="overview__single-section__title">Happy Client</p>
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">assignment_turned_in</i>
-          <h2 class="overview__single-section__number">780</h2>
-          <p class="overview__single-section__title">Finished Project</p>
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">local_bar</i>
-          <h2 class="overview__single-section__number">970</h2>
-          <p class="overview__single-section__title">Cups of coffe</p>
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>-->
+<!-- 
+<section id="contact" class="portfolio" style="background-color: #003550">
+<div class="container skill__container--narrow">
+<div class="page-section">
+<h2 class="page-section__title" style="color:white">Lets Connect</h2><br>
 
 
+
+        <div class="row gutters-70" style="margin-bottom: 10px;">
+          <div class="col-sm-8 " >
+          	<a href="#contact">
+                       <div class="thumbnail text-left" style="background-color: #003550; border: 0px solid black;">
+              <h6 class="service__single-section__title" style="color: white;font-size: 23px"><span class="glyphicon glyphicon-envelope"></span> Email : prathameshd99@gmail.com</h6>
+            </div>
+        </a>
+          </div>
+        </div>
+
+
+        <div class="row gutters-70" style="margin-bottom: 10px;">
+          <div class="col-sm-8 ">
+          	<a href="#contact">
+                       <div class="thumbnail text-left" style="background-color: #003550; border: 0px solid black;">
+              <h6 class="service__single-section__title" style="color: white;font-size: 23px"><span class="glyphicon glyphicon-earphone"></span> Phone : 812-606-7954</h6>
+            </div>
+        </a>
+          </div>
+        </div>
+</div>
+</div>
+</section> -->
   
 
 <!--
@@ -697,18 +726,18 @@
     </div>
   </section>
 -->
-<!--
+<section id="contact">
   <footer class="footer footer--bg">
     <div class="container text-center">
-      <h1 class="footer__title">OBELA</h1>
+      <h1 class="footer__title">Contact Me</h1>
       <ul class="footer__contact-information">
-        <li><a href="tel:5555555555"><i class="material-icons">phone</i> Hotline (+123) 45 67 89 21</a></li>
-        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> sshahriar458@gmail.com</a></li>
-        <li><a href="#"><i class="material-icons">location_on</i> DartThemes address goes here.</a></li>
+        <li><a href="tel:5555555555"><i class="material-icons">phone</i>812-606-7954</a></li>
+        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> prathameshd99@gmail.com</a></li>
+        <li><a href="#"><i class="material-icons">location_on</i> Bloomington, IN</a></li>
       </ul>
     </div>
-    <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
-    <div class="container text-center">
+<!--     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
+ --><!--     <div class="container text-center">
       <div class="social-icon">
         <ul>
           <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
@@ -718,8 +747,9 @@
         </ul>
       </div>
       <p class="footer__paragraph">Copyright &copy; 2017 DartThemes , All Rights Reserved.</p>
-    </div>
-  </footer>-->
+    </div> -->
+  </footer>
+</section>
 </div>
   <script src="assets/jquery/jquery-3.2.1.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
