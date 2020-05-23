@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body style="scroll-behavior: smooth;">
@@ -220,11 +221,10 @@ I have a Master's Degree in Computer Science from Indiana University, Bloomingto
 <div class="page-section">
 <h2 class="page-section__title" style="color:#005f8f">Featured Projects</h2><br>
 
-<div class="row gutters-70">
+<!-- <div class="row gutters-70">
 <div class="col-md-4">
 <div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
 
-<!--<img src="assets/images/utopia.jpg" width="309" height="200">-->
 <div style="padding: 10px">
 <a href="#portfolio">
 <h3 class="project-name"><span style="color:lightcoral;">Utopia</span></h3> 
@@ -237,7 +237,6 @@ I have a Master's Degree in Computer Science from Indiana University, Bloomingto
 <div class="col-md-4">
 <div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
 
-<!--<img src="assets/images/cityscanner.jpg" width="309" height="200">-->
 <div style="padding: 10px">
 	<a href="#portfolio">
 <h3 class="project-name"><span style="color:lightcoral;">City Scanner</span></h3> 
@@ -250,7 +249,6 @@ I have a Master's Degree in Computer Science from Indiana University, Bloomingto
 <div class="col-md-4">
 <div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
 
-<!-- <img src="assets/images/events.jpg" width="309" height="200">-->   
 <div style="padding: 10px">
 	<a href="#portfolio">
 <h3 class="project-name"><span style="color:lightcoral;">Hoosier Events</span></h3> 
@@ -261,22 +259,119 @@ I have a Master's Degree in Computer Science from Indiana University, Bloomingto
 </div>
 </div>
 
-<!-- <div class="col-md-4">
-<div class="thumbnail text-left hovereffect dummy" style="border: 0px solid white;background-color: ;padding: 0px">
 
-<div style="padding: 10px">
-	<a href="#portfolio">
-<h3 class="project-name"><span style="color:#262626;"><b>Healthy Orange County</b></span></h3> 
-<p class="project-details">Redesigned a website for Orange County Wellness Centre for better accessibility of healthcare services.Built additional features for user and event management.</p> 
-<p class="tech-desc" ><span class="glyphicon glyphicon-tasks"></span>  HTML,Bootstap, PHP, MySQL</p>
-</a>
-</div>
-</div>
 </div> -->
 
+<div class="row gutters-70">
+  <div class="col-md-4">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h3 class="project-name"><span style="color:lightcoral;">Utopia</span></h3>
+<p class="project-details">A music recommendation web app on top of Spotify’s API</p> 
+<p class="tech-desc" style="
+    margin-top: 0px;
+"><span class="glyphicon glyphicon-tasks"></span>  ReactJS, Go, Flask, NodeJS</p>
+
+    </div>
+    <div class="flip-card-back"><p class="project-details">Built a music recommendation web app on top of Spotify’s API with microservice architecture. Used Jenkins for CI/CD and achieved fault tolerant architecture (10000 concurrent requests) with Kubernetes</p>
+       
+       
+      
+    </div>
+  </div>
+</div>
+</div>
+
+  <div class="col-md-4">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h3 class="project-name"><span style="color:lightcoral;">City Scanner</span></h3>
+<p class="project-details">A review website for users to explore and rate attractions in a city.</p> 
+<p class="tech-desc" style="
+    margin-top: 0px;
+"><span class="glyphicon glyphicon-tasks"></span>  ReactJS, Spring Boot, MySQL</p>
+
+    </div>
+    <div class="flip-card-back"><p class="project-details">Built a review website for users to explore and rate attractions in a city using Google APIs to fetch data. Practiced test-driven development to achieve 45% code coverage and reduced code bugs with SonarQube</p>
+       
+       
+      
+    </div>
+  </div>
+</div>
+</div>
+
+  <div class="col-md-4">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h3 class="project-name"><span style="color:lightcoral;">Hoosier Events</span></h3>
+<p class="project-details">An event hosting and ticketing website for events around IU.</p> 
+<p class="tech-desc" style="
+    margin-top: 0px;
+"><span class="glyphicon glyphicon-tasks"></span>  JavaScript, HTML,  Spring Boot, MySQL</p>
+
+    </div>
+    <div class="flip-card-back"><p class="project-details">Developed an event hosting and ticketing website for events around IU and deployed it on AWS. Collaborated with a team of 4 members and practiced Agile Methodology for development</p>
+       
+       
+      
+    </div>
+  </div>
+</div>
+</div>
 
 
 </div>
+
+
+<div class="row gutters-70" style="margin-top: 3%;">
+  <div class="col-md-4">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h3 class="project-name"><span style="color:lightcoral;">Healthy Orange County</span></h3>
+<p class="project-details">A website redesign project for Orange County Wellness.</p> 
+<p class="tech-desc" style="
+    margin-top: 0px;
+"><span class="glyphicon glyphicon-tasks"></span>  HTML, Bootstrap, PHP, MySQL</p>
+
+    </div>
+    <div class="flip-card-back"><p class="project-details">Redesigned a website for Orange County Wellness Centre for better accessibility of healthcare services. Built additional features for user and event management using PHP and MySQL.</p>
+       
+       
+      
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <div class="col-md-4">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h3 class="project-name"><span style="color:lightcoral;">Analytics in Academics</span></h3>
+<p class="project-details">A web app for student grades analysis.</p> 
+<p class="tech-desc" style="
+    margin-top: 0px;
+"><span class="glyphicon glyphicon-tasks"></span>  HTML, PHP, R</p>
+
+    </div>
+    <div class="flip-card-back"><p class="project-details">Developed a web application for college department to analyse grades for tracking student performance. Visualized the statistics of 200 students using R and predicted grades with 90% accuracy using Neural Net.</p>
+       
+       
+      
+    </div>
+  </div>
+</div>
+</div>
+
+
+</div>
+
 
 
 <!-- <div class="row gutters-70">
@@ -316,17 +411,18 @@ I have a Master's Degree in Computer Science from Indiana University, Bloomingto
     <section id="skills" class="skill skill--bg" style="background-color: white">
     <div class="container skill__container--narrow">
       <div class="page-section">
-        <h2 class="page-section__title " style="color: #005f8f">Technical Skills</h2>
+        <h2 class="page-section__title " style="color: #262626">Technical Skills</h2>
 
 
                 <div class="row gutters-70 skills-div">
           <div class="col-sm-4">
                                    <div class="thumbnail text-left" >
-              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;">Programming Languages</h4>
+              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;"><i class='fas fa-keyboard'></i>
+ Programming Languages</h4>
 
             </div>
           </div>
-          <div class="col-sm-4 skills-data">
+          <div class="col-sm-5 skills-data">
                        <div class="thumbnail text-left" >
              <!-- <p class="service__single-section__paragraph">Java Python C# Javascript C </p>-->
 
@@ -341,11 +437,11 @@ I have a Master's Degree in Computer Science from Indiana University, Bloomingto
                 <div class="row gutters-70 skills-div">
           <div class="col-sm-4">
                                    <div class="thumbnail text-left" >
-              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;">Web Development</h4>
+              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;"><span class="glyphicon glyphicon-globe"></span> Web Development</h4>
 
             </div>
           </div>
-          <div class="col-sm-4 skills-data">
+          <div class="col-sm-5 skills-data">
                        <div class="thumbnail text-left" >
              <!-- <p class="service__single-section__paragraph">Java Python C# Javascript C </p>-->
 <p class="skills-details" style="color: black">•HTML •CSS •Bootstrap •React.js •Node.js •PHP </p>
@@ -358,11 +454,12 @@ I have a Master's Degree in Computer Science from Indiana University, Bloomingto
                 <div class="row gutters-70 skills-div">
           <div class="col-sm-4">
                                    <div class="thumbnail text-left">
-              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;">Tools</h4>
+              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;"> <span class="glyphicon glyphicon-wrench"></span> Tools 
+</h4>
 
             </div>
           </div>
-          <div class="col-sm-4 skills-data">
+          <div class="col-sm-5 skills-data">
                        <div class="thumbnail text-left">
              <!-- <p class="service__single-section__paragraph">Java Python C# Javascript C </p>-->
 <p class="skills-details" style="color: black">•JIRA •Tableau •Git •Jenkins •SonarQube •Bamboo •Confluence •Eclipse
@@ -376,11 +473,11 @@ I have a Master's Degree in Computer Science from Indiana University, Bloomingto
                 <div class="row gutters-70 skills-div">
           <div class="col-sm-4">
                                    <div class="thumbnail text-left" >
-              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;">Frameworks</h4>
+              <h4 class="service__single-section__title" style="color: #005f8f;font-size: 23px;padding-top: 16px;"><span class="glyphicon glyphicon-book"></span> Frameworks</h4>
 
             </div>
           </div>
-          <div class="col-sm-4 skills-data">
+          <div class="col-sm-5 skills-data">
                        <div class="thumbnail text-left" >
              <!-- <p class="service__single-section__paragraph">Java Python C# Javascript C </p>-->
 <p class="skills-details" style="color: black"> •MVC •Spring Boot •Agile •MySQL •PostgreSQL</p>
