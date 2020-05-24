@@ -1086,16 +1086,16 @@ transition: 0.5s;
 
 .resume-btn{
   border: 1px solid lightcoral;
-  background-color: white;
-  color: lightcoral;
+/*    background-color: white;
+*/  color: lightcoral;
   width: 200px;
   transition: 0.7s;
-  border-radius: 5px;
+  font-size: 16px;
 }
 
 .resume-btn:hover{
-  background-color: lightcoral;
-  color: white;
+ /* background-color: lightcoral;
+  color: white;*/
 }
 
 .skills-div{
