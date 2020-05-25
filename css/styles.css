@@ -146,7 +146,15 @@ html,body {
 }
 
 .nav li a{
-  font-size: 15px;
+  font-size: 17px;
+}
+
+.nav li a:hover{
+  border-bottom: 1px solid #23527c;
+}
+
+.nav li a:active{
+  border-bottom: 1px solid #23527c;
 }
 
 .navbar{
@@ -268,12 +276,12 @@ html,body {
 }
 
 .about__bio{
-  font-size: 15px;
+  font-size: 17px;
   color: #636262;
 }
 
 .about__bio strong{
-  font-size: 17px;
+  font-size: 20px;
   color: #2c4055;
   font-family: Roboto-Light;
 }
