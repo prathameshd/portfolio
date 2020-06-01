@@ -22,6 +22,7 @@
 body{
   font-family: "Roboto", sans-serif;
   line-height: 1.8;
+  
 }
 
 @media (min-width: 1400px) {
@@ -33,6 +34,9 @@ body{
 
 ul li{
   list-style-type: none;
+  font-size: 17px;
+  font-family: ubuntu;
+  color: black;
 }
 
 ul{
@@ -217,7 +221,9 @@ html,body {
 }
 
 .page-section__title{
-  font-size: 35px;
+  font-size: 60px;
+  font-weight: 800;
+  font-family: abel;
   /*color: #273f59;*/
   color: black;
   text-align: left;
@@ -414,18 +420,18 @@ html,body {
 }
 
 .service__single-section__title{
-  font-size: 18px;
+  font-size: 21px;
   color: #273f59;
-/*  font-weight: bold;
-*/  margin-top: 15px;
+  font-family: abel;
+margin-top: 15px;
   margin-bottom: 20px;
 }
 
 .service__single-section__paragraph{
   font-size: 17px;
-  color: white;
+  color: black;
  /* color: #7b7b7b;*/
- 
+ font-family: ubuntu;
   line-height: 1.3;
 }
 
@@ -943,7 +949,7 @@ html,body {
 }
 
 .footer--bg{
-  background-color: #003550;
+  background-color: #132020;
 }
 
 .footer__title{
@@ -996,8 +1002,8 @@ font-family: "Roboto", helvetica, arial, sans-serif !important;
 
 
 .hovereffect:hover{
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-transition: 0.8s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+transition: 1s;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -1036,15 +1042,17 @@ html {
 }
 
 .project-name{
-  font-size: 23px !important;
+  font-size: 27px !important;
   padding-left: 14px;
+  font-family: abel;
+color: white;
 }
 
 .dummy{
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1);
-transition: 1.5s;
+/*  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1);
+*/transition: 1.5s;
 border-radius: 10px !important;
-background-color: #dee4e7;
+background-color: inherit;
 
 }
 
@@ -1062,14 +1070,15 @@ background-color: #dee4e7;
 }
 
 .exp-hover:hover{
-    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1);
-transition: 0.5s;
+/*    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1);
+transition: 0.5s;*/
 }
 
 .project-details{
   font-size: 17px;
-  color: #37474e;
+  color: white;
   padding: 15px;
+  font-family: ubuntu;
 }
 
 
@@ -1107,13 +1116,13 @@ transition: 0.5s;
 }
 
 .skills-div{
-      border-bottom: 1px solid #efefef;
-      transition: 0.5s;
+/*      border-bottom: 1px solid #efefef;
+*/      transition: 0.5s;
       margin-top: 3px;
+      padding:20px;
 }
 
 .skills-div:hover{
-      box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
 
 }
 
@@ -1144,6 +1153,7 @@ transition: 0.5s;
 
 .header-text{
   font-family: "Montserrat", sans-serif !important;
+  font-size: 35px;
   }
 
 
@@ -1207,3 +1217,122 @@ transition: 0.5s;
   background-color: #dee4e7;
   transform: rotateY(180deg);
 }
+
+
+
+
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: -100;
+}
+
+.demo .large-header {
+
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}
+
+
+@font-face {
+/*  font-family: abelfont;
+  src: url("css/Fonts/abel-regular-webfont.woff");*/
+  font-family: "nunito";
+
+  src: url(../css/temp/Nunito-Regular.ttf);
+
+}
+
+@font-face {
+/*  font-family: abelfont;
+  src: url("css/Fonts/abel-regular-webfont.woff");*/
+  font-family: "opensans";
+
+  src: url(../css/temp/OpenSans-Regular.ttf);
+
+
+}
+
+.github{
+  padding: 6px;
+  border: 1px solid green;
+  color: green;
+  font-size: 11px;
+  font-weight:bold;
+  background-color:inherit;
+}
+
+.github:hover{
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+}
+
+.abel{
+  font-family: abel;
+}
+
+.ubuntu{
+  font-family: ubuntu;
+}
+
+.workdates{
+    font-size: 27px;
+    padding-top: 11%;
+    padding-left: 5%;
+    color: white;
+}
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  10% { border-color: orange; }
+}
+
